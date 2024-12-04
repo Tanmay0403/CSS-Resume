@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0; 
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "lato",sans-serif;
+}
+
+.header{
+    background-color: #1D4E79;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: end;
+    text-align: justify;
+}
+.header h1{
+    font-size: 3em;
+}
+.header h2{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.header p{
+    margin-top:30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: justify;
+    margin-right: 30px;
+    /* width: 70vw; */
+}
+.header img{
+    height: 200px;
+    width:160px;
+    border: 1px solid #FFFF;
+    margin-right: 50px;
+}
+.contact{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+    font-size: 15px;
+}
+ .telephone .contact .address{
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+} 
+
+.contact div {
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+    margin-right: 5px; 
+}
+
+.work-experience,
+.education-details,
+.communication
+{
+    margin-top: 25px;
+}
+
+h3{
+    font-size: 1.2em;
+    width:300px;
+    background-color: #2E73B6;
+    height:35px;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    background-color: #2E73B6;
+    opacity: 0.85;
+    border: 0 none;
+    height: 2px;
+    margin-right: 40px;
+}
+
+.work-experience > .description{
+    margin-left: 10px;
+}
+.description
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 15px;
+    display: flex;
+    gap:20px;
+}
+.left-section{
+    width: 200px;
+    text-align: right;
+}
+.right-section{
+    margin-right: 40px;
+    text-align: justify;
+}
+.communication p{
+    margin-right:40px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
